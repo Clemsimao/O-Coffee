@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+
+<main class="product-page">
+    <div class="product-image-container">
+        <img class="fixed-size-img" src="/images/coffees/<%= coffee.reference %>.webp" alt="café <%= coffee.nom %>">
+    </div>
+    <section class="product-details">
+        <h1 class="product-title"><%= coffee.nom %> - Origine : <%= coffee.origine %></h1>
+        <p class="product-description"><%= coffee.description %></p>
+        <p class="product-price">Prix au kilo : <%= coffee.prix_au_kilo %> € - Ajouté le 10/03/2025</p>
+        <p class="product-feature">Caractéristique principale : <%= coffee.caracteristique_principale %></p>
+        <a id="boutton-marron" class="back-button" href="/catalogue">Retour vers le catalogue</a>
+    </section>
+</main>
+
+<%- include('partials/footer') %>
+

@@ -1,0 +1,25 @@
+<%- include('partials/header') %>
+
+<main>
+    <section class="haut-catalogue">
+        <h1>Notre catalogue</h1>
+        <p>Découvrez notre sélection de cafés exceptionnels.</p>
+    </section>
+    <section>
+        <div class="container-produit">
+            <!-- boucle forEach pour l'affichage des 6 premiers café et ensuite afficher le reste si on clique-->
+            <% allProducts.forEach((product, index) => { %>
+                <article class="produit <%= index >= 6 ? 'hidden-catalogue' : '' %>">
+                    <h2 class="coffee-name-catalogue"><%= product.nom %></h2>
+                    <img src="/images/coffees/<%= product.reference %>.webp" alt="café <%= product.nom %>">
+                    <a href="/produit/<%= product.id %>" class="button">Découvrir le café</a>
+                </article>
+            <% }) %>
+        </div>
+        <div class="container-voir-catalogue">
+            <button id="boutton-marron">Voir tout le catalogue</button>
+        </div>
+    </section>
+</main>
+
+<%- include('partials/footer') %>

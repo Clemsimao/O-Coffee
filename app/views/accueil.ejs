@@ -1,0 +1,30 @@
+<%- include('partials/header') %>
+
+<main>
+    <h1>Bienvenue chez O'Coffee</h1>
+    <p>Bienvenue dans notre boutique, où règne une ambiance chaleureuse et accueillante qui éveille tous vos sens. Dès que vous franchissez la porte, vous êtes enveloppé d'une douce symphonie d'arômes envoûtants de café fraîchement moulu.</p>
+    <p>Jean et Jacques Pepper, deux frères passionnés par le café, sont les fondateurs de notre boutique. Avec une expertise approfondie et un amour profond pour cette délicieuse boisson, ils ont créé un espace où le café est célébré comme une expérience raffinée et inspirante.</p>
+    <a href="/catalogue" class="button">Voir le catalogue</a>
+    <img class="image-accueil" src="/images/about.webp" alt="Image de présentation de café">
+
+    <section class="nouveautes">
+        <h2>Nouveautés :</h2>
+        <ul>
+            <!-- boucle forEach pour l'affichage des 3 cafés sur ma vue -->
+            <% threeProducts.forEach(product => { %>
+                <li>
+                    <h3><%= product.nom %></h3>
+                    <img src="/images/coffees/<%= product.reference %>.webp" alt="Café <%= product.nom %>">
+                    <a class="button" href="/produit/<%= product.id %>">Découvrir</a>
+                </li>
+            <% }) %>
+        </ul>
+    </section>
+    <section class="localisation">
+        <h2>Comment nous trouver ?</h2>
+        <div id="map"></div>
+    </section>
+</main>
+
+
+<%- include('partials/footer') %>

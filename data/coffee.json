@@ -1,0 +1,162 @@
+[
+    {
+        "nom": "Expresso",
+        "description": "Café fort et concentré préparé en faisant passer de l'eau chaude à travers du café finement moulu.",
+        "reference": "100955890",
+        "origine": "Italie",
+        "prix_au_kilo": 20.99,
+        "caracteristique_principale": "Corsé",
+        "disponible": "Oui",
+        "image": "100955890.png"
+    },
+    {
+        "nom": "Columbian",
+        "description": "Café moyennement corsé avec une acidité vive et une saveur riche.",
+        "reference": "100955894",
+        "origine": "Colombie",
+        "prix_au_kilo": 18.75,
+        "caracteristique_principale": "Acide",
+        "disponible": "Oui",
+        "image": "100955894.png"
+    },
+    {
+        "nom": "Ethiopian Yirgacheffe",
+        "description": "Réputé pour son arôme floral, son acidité vive et ses notes de saveur citronnée.",
+        "reference": "105589090",
+        "origine": "Éthiopie",
+        "prix_au_kilo": 22.50,
+        "caracteristique_principale": "Fruité",
+        "disponible": "Oui",
+        "image": "105589090.png"
+    },
+    {
+        "nom": "Brazilian Santos",
+        "description": "Café doux et lisse avec un profil de saveur de noisette.",
+        "reference": "134009550",
+        "origine": "Brésil",
+        "prix_au_kilo": 17.80,
+        "caracteristique_principale": "Doux",
+        "disponible": "Oui",
+        "image": "134009550.png"
+    },
+    {
+        "nom": "Guatemalan Antigua",
+        "description": "Café corsé avec des nuances chocolatées et une pointe d'épice.",
+        "reference": "256505890",
+        "origine": "Guatemala",
+        "prix_au_kilo": 21.25,
+        "caracteristique_principale": "Corsé",
+        "disponible": "Oui",
+        "image": "256505890.png"
+    },
+    {
+        "nom": "Kenyan AA",
+        "description": "Café complexe connu pour son acidité rappelant le vin et ses saveurs fruitées.",
+        "reference": "295432730",
+        "origine": "Kenya",
+        "prix_au_kilo": 23.70,
+        "caracteristique_principale": "Acide",
+        "disponible": "Oui",
+        "image": "295432730.png"
+    },
+    {
+        "nom": "Sumatra Mandheling",
+        "description": "Café profond et terreux avec un corps lourd et une faible acidité.",
+        "reference": "302932754",
+        "origine": "Indonésie",
+        "prix_au_kilo": 19.95,
+        "caracteristique_principale": "Corsé",
+        "disponible": "Oui",
+        "image": "302932754.png"
+    },
+    {
+        "nom": "Costa Rican Tarrazu",
+        "description": "Café vif et net avec une finition propre et une acidité vive.",
+        "reference": "327302954",
+        "origine": "Costa Rica",
+        "prix_au_kilo": 24.50,
+        "caracteristique_principale": "Acide",
+        "disponible": "Oui",
+        "image": "327302954.png"
+    },
+    {
+        "nom": "Vietnamese Robusta",
+        "description": "Café audacieux et fort avec une saveur robuste distinctive.",
+        "reference": "549549090",
+        "origine": "Vietnam",
+        "prix_au_kilo": 16.75,
+        "caracteristique_principale": "Épicé",
+        "disponible": "Oui",
+        "image": "549549090.png"
+    },
+    {
+        "nom": "Tanzanian Peaberry",
+        "description": "Acidité vive avec un profil de saveur rappelant le vin et un corps moyen.",
+        "reference": "582954954",
+        "origine": "Tanzanie",
+        "prix_au_kilo": 26.80,
+        "caracteristique_principale": "Fruité",
+        "disponible": "Oui",
+        "image": "582954954.png"
+    },
+    {
+        "nom": "Jamaican Blue Mountain",
+        "description": "Reconnu pour sa saveur douce, son acidité vive et son absence d'amertume.",
+        "reference": "589100954",
+        "origine": "Jamaïque",
+        "prix_au_kilo": 39.25,
+        "caracteristique_principale": "Doux",
+        "disponible": "Oui",
+        "image": "589100954.png"
+    },
+    {
+        "nom": "Rwandan Bourbon",
+        "description": "Café avec des notes florales prononcées, une acidité vive et un corps moyen.",
+        "reference": "650753915",
+        "origine": "Rwanda",
+        "prix_au_kilo": 21.90,
+        "caracteristique_principale": "Fruité",
+        "disponible": "Oui",
+        "image": "650753915.png"
+    },
+    {
+        "nom": "Panamanian Geisha",
+        "description": "Café rare aux arômes floraux complexes, une acidité brillante et un profil de saveur distinctif.",
+        "reference": "795501340",
+        "origine": "Panama",
+        "prix_au_kilo": 42.00,
+        "caracteristique_principale": "Fruité",
+        "disponible": "Oui",
+        "image": "795501340.png"
+    },
+    {
+        "nom": "Peruvian Arabica",
+        "description": "Café équilibré avec des notes de chocolat, une acidité modérée et un corps velouté.",
+        "reference": "954589100",
+        "origine": "Pérou",
+        "prix_au_kilo": 19.40,
+        "caracteristique_principale": "Chocolaté",
+        "disponible": "Non",
+        "image": "954589100.png"
+    },
+    {
+        "nom": "Hawaiian Kona",
+        "description": "Café rare au goût riche, une acidité douce et des nuances subtiles.",
+        "reference": "958090105",
+        "origine": "Hawaï",
+        "prix_au_kilo": 55.75,
+        "caracteristique_principale": "Doux",
+        "disponible": "Non",
+        "image": "958090105.png"
+    },
+    {
+        "nom": "Nicaraguan Maragogipe",
+        "description": "Café avec des notes de fruits, une acidité vive et un corps plein.",
+        "reference": "691550753",
+        "origine": "Nicaragua",
+        "prix_au_kilo": 28.60,
+        "caracteristique_principale": "Fruité",
+        "disponible": "Non",
+        "image": "691550753.png"
+    }
+]

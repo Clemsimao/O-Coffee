@@ -1,0 +1,9 @@
+- [X] relecture du code d'hier et rajout des commentaires
+- [X] afficher O'Coffee à droite du logo en desktop et améliorer header en mobile
+- [X] corriger connerie .png dans bdd
+- [X] améliorer style page produit
+- [X] 2 h1 sur page d'accueil, régler ça 
+- [X] optimisation du site check avec ligthouse
+- [X] re check le responsive
+- [X] faire mc mcd etc mld en lien avec la nouvelle bdd sans mocodo
+- [X] check evaluation grid

@@ -1,0 +1,6 @@
+- [X] relecture du code d'hier et rajout des commentaires
+- [X] commenter le fait que je selectionne 3 café aléatoirement en page d'acceueil
+- [X] dynamisation page catalogue 
+- [X] bouton voir tout le catalogue
+- [X] dynamisation page article
+- [X] gestion page 404 et 500 avec middleware d'erreur

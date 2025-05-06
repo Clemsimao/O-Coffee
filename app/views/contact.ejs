@@ -1,0 +1,35 @@
+<%- include('partials/header') %>
+
+<section class="contact-section">
+    <h1>Contactez-nous</h1>
+    <p>Vous avez une question ? Remplissez ce formulaire et nous vous répondrons rapidement !</p>
+
+    <form id="contact-form" class="contact-form">
+        <fieldset>
+            <legend>Envoyez-nous un message</legend>
+            
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Votre email" required>
+
+            <label for="title">Sujet</label>
+            <input type="text" id="title" name="title" placeholder="Sujet de votre message" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Votre message ici..." required></textarea>
+
+            <button type="submit" class="btn-submit">Envoyer</button>
+        </fieldset>
+    </form>
+
+    <div class="contact-info">
+        <h2>Nos coordonnées</h2>
+        <p><strong>Email :</strong> contact@ocoffee.com</p>
+        <p><strong>Téléphone :</strong> 01 23 45 67 89</p>
+        <p><strong>Adresse :</strong> 123 Rue du Café, 62416 Hautecloque</p>
+    </div>
+</section>
+
+<%- include('partials/footer') %>

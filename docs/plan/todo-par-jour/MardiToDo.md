@@ -1,0 +1,11 @@
+# todo / plan du Mardi
+- [X] check css page article et 404
+- [X] responsive du site
+    - [X] menu burger
+- [] coupé le css en plusieurs fichiers
+- [X] mise en place d'express
+- [X] vue statique et partial
+- [X] routage
+- [X] création de la bdd
+- [X] connexion à la bdd et test si tout marche
+- [X] affichage des 3 premier café en dynamique sur l'accueil
