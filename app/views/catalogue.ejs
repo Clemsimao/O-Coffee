@@ -7,7 +7,7 @@
     </section>
     <section>
         <div class="container-produit">
-            <!-- boucle forEach pour l'affichage des 6 premiers café et ensuite afficher le reste si on clique-->
+            <!-- forEach loop to display the first 6 coffees, then show the rest when clicking -->
             <% allProducts.forEach((product, index) => { %>
                 <article class="produit <%= index >= 6 ? 'hidden-catalogue' : '' %>">
                     <h2 class="coffee-name-catalogue"><%= product.nom %></h2>

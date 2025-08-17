@@ -1,0 +1,37 @@
+# Version du format docker-compose
+version: '3.8'
+
+# Définition des services de l'application
+services:
+  # Service Node.js (application Express)
+  app:
+    build: . # Construit l'image à partir du Dockerfile à la racine
+    container_name: ocoffee_app 
+    ports:
+      - "8000:8000" # Expose le port 8000 du conteneur sur le port 8000 de la machine hôte
+    env_file:
+      - .env # Charge les variables d'environnement depuis le fichier .env
+    depends_on:
+      - db # Démarre le service db avant l'app
+    volumes:
+      - .:/app # Monte le dossier du projet dans le conteneur pour le développement
+    restart: unless-stopped # Redémarre le conteneur sauf si on l'arrête manuellement
+
+  # Service PostgreSQL (base de données)
+  db:
+    image: postgres:16 # Utilise l'image officielle PostgreSQL version 16
+    container_name: ocoffee_db 
+    environment:
+      POSTGRES_DB: coffee 
+      POSTGRES_USER: coffee 
+      POSTGRES_PASSWORD: coffee 
+    ports:
+      - "5432:5432" # Expose le port 5432 du conteneur sur le port 5432 de la machine hôte
+    volumes:
+      - db_data:/var/lib/postgresql/data # Volume persistant pour les données PostgreSQL
+      - ./data/create_db.sql:/docker-entrypoint-initdb.d/create_db.sql # Script SQL exécuté à l'initialisation
+    restart: unless-stopped # Redémarre le conteneur sauf si on l'arrête manuellement
+
+# Définition des volumes persistants
+volumes:
+  db_data:
